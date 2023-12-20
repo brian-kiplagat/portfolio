@@ -37,7 +37,4 @@ jobs:
           username: ${{ secrets.SSH_USER }}
           port: ${{ secrets.SSH_PORT }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
-          script: |
-            cd /usr/share/nginx/portfolio
-            rm -rf *
-            cp -r $GITHUB_WORKSPACE/build/* .
+          script: whoami
