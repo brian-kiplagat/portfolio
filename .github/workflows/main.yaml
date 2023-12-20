@@ -30,11 +30,8 @@ jobs:
     needs: build
 
     steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v2
-
       - name: Deploy to CentOS
-        uses: brian-kiplagat/portfolio@main
+        uses: appleboy/ssh-action@master
         with:
           host: ${{ secrets.SSH_HOST }}
           username: ${{ secrets.SSH_USER }}
