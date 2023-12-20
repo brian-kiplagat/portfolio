@@ -31,7 +31,7 @@ jobs:
 
     steps:
       - name: Deploy to CentOS
-        uses: appleboy/ssh-action@master
+        uses: brian-kiplagat/portfolio@main
         with:
           host: ${{ secrets.SSH_HOST }}
           username: ${{ secrets.SSH_USER }}
