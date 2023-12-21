@@ -24,12 +24,6 @@ jobs:
       - name: Build React App
         run: npm run build
 
-  deploy:
-    runs-on: self-hosted
-
-    needs: build
-
-    steps:
       - name: Deploy to CentOS
         uses: brian-kiplagat/portfolio@main
         with:
@@ -42,4 +36,5 @@ jobs:
             cd /usr/share/nginx/portfolio
             rm -rf *
             cp -r $GITHUB_WORKSPACE/build/* .
-            echo "Deployment completed."
+            echo "Deployment completed."  
+
