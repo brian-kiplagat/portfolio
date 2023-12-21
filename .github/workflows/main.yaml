@@ -26,10 +26,13 @@ jobs:
 
   deploy:
     runs-on: self-hosted
-
     needs: build
-
     steps:
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+
       - name: Deploy to CentOS
         uses: brian-kiplagat/portfolio@main
         with:
