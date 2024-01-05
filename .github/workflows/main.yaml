@@ -36,8 +36,9 @@ jobs:
           ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY_2 }}
 
       - name: Deploy to CentOS 7
-        run: | 
-          pwd
+        run: |
+          echo "Current Working Directory: $(pwd)"
+          echo "Contents of the directory:"
           ls -l
           echo "Starting deployment....."
           ssh -o StrictHostKeyChecking=no -p ${{ secrets.SSH_PORT }} ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} "cd /usr/share/nginx/portfolio && rm -rf * && exit"
