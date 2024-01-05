@@ -33,7 +33,7 @@ jobs:
       - name: Add SSH Key to Agent
         uses: webfactory/ssh-agent@v0.5.4
         with:
-          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY_2 }}
 
       - name: Deploy to CentOS 7
         run: |
