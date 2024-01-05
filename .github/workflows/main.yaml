@@ -38,7 +38,7 @@ jobs:
       - name: Deploy to CentOS 7
         run: | 
           pwd
-          ls -a
+          ls -l
           echo "Starting deployment....."
           ssh -o StrictHostKeyChecking=no -p ${{ secrets.SSH_PORT }} ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} "cd /usr/share/nginx/portfolio && rm -rf * && exit"
           scp -o StrictHostKeyChecking=no -P ${{ secrets.SSH_PORT }} -r ./build/* ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/usr/share/nginx/portfolio/
