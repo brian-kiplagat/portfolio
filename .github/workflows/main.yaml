@@ -31,15 +31,8 @@ jobs:
 
     steps:
       - name: Deploy to CentOS 7
-        uses: brian-kiplagat/portfolio@main
-        with:
-          host: ${{ secrets.SSH_HOST }}
-          username: ${{ secrets.SSH_USER }}
-          port: ${{ secrets.SSH_PORT }}
-          key: ${{ secrets.SSH_PRIVATE_KEY }}
-          script: |
-            echo "Starting deployment..."
-            cd /usr/share/nginx/portfolio
-            rm -rf *
-            cp -r $GITHUB_WORKSPACE/build/* .
-            echo "Deployment completed."
+        run: |
+          echo "Starting deployment..."
+          ssh -o StrictHostKeyChecking=no -p ${{ secrets.SSH_PORT }} ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} "cd /usr/share/nginx/portfolio && rm -rf * && exit"
+          scp -o StrictHostKeyChecking=no -P ${{ secrets.SSH_PORT }} -r build/* ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/usr/share/nginx/portfolio/
+          echo "Deployment completed."
