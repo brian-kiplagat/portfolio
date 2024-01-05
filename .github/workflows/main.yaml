@@ -24,23 +24,17 @@ jobs:
       - name: Build React App
         run: npm run build
 
-      - name: Checkups
-        run:  |
-          echo "Current Working Directory: $(pwd)"
-          echo "Contents of the directory: $(ls -la)"
-          ls /home/runner/work/portfolio
-
       - name: Add SSH Key to Agent
         uses: webfactory/ssh-agent@v0.5.4
         with:
           ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY_2 }}
 
-      - name: Deploy to CentOS 7
+      - name: Deploy React App to Linux CentOS 7
         run: |
           echo "Current Working Directory: $(pwd)"
           echo "Contents of the directory: $(ls -la)"
           ls /home/runner/work/portfolio
           echo "Starting deployment....."
           ssh -o StrictHostKeyChecking=no -p ${{ secrets.SSH_PORT }} ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} "cd /usr/share/nginx/portfolio && rm -rf * && exit"
-          scp -o StrictHostKeyChecking=no -P ${{ secrets.SSH_PORT }} -r ./build/* ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/usr/share/nginx/portfolio/
+          scp -o StrictHostKeyChecking=no -P ${{ secrets.SSH_PORT }} -r ./build/* ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/usr/share/nginx/portfolio/build
           echo "Deployment completed."
