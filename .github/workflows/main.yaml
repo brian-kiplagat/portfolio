@@ -24,6 +24,13 @@ jobs:
       - name: Build React App
         run: npm run build
 
+      - name: Checkups
+        run:  |
+          echo "Current Working Directory: $(pwd)"
+          echo "Contents of the directory: $(ls -la)"
+          ls /home/runner/work/portfolio
+  
+
   deploy:
     runs-on: ubuntu-latest
 
@@ -38,8 +45,7 @@ jobs:
       - name: Deploy to CentOS 7
         run: |
           echo "Current Working Directory: $(pwd)"
-          echo "Contents of the directory:"
-          ls -la
+          echo "Contents of the directory: $(ls -la)"
           ls /home/runner/work/portfolio
           echo "Starting deployment....."
           ssh -o StrictHostKeyChecking=no -p ${{ secrets.SSH_PORT }} ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} "cd /usr/share/nginx/portfolio && rm -rf * && exit"
