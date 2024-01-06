@@ -35,7 +35,12 @@ jobs:
         uses: webfactory/ssh-agent@v0.5.4
         with:
           ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY_2 }}
-      #Performs the actual deployment. It consists of a multi-line script (run:)
+      #Performs the actual deployment.
+      #It consists of a multi-line script (run:) Prints the current working directory and lists its contents.
+      #Outputs a message indicating the start of the deployment.
+      #Use SSH to connect to the CentOS 7 server (${{ secrets.SSH_HOST }}) with the specified port, user, and private key. It then changes to the deployment directory (/usr/share/nginx/portfolio/build), removes existing contents, and exits.
+      #Use scp to securely copy the contents of the local ./build/* directory to the specified deployment directory on the server.
+      #Outputs a message indicating the completion of the deployment.
       - name: Deploy React App to Linux CentOS 7
         run: |
           echo "Current Working Directory: $(pwd)"
