@@ -25,10 +25,10 @@ function Projects() {
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
+              title="Pixcoin"
+              description="A crypto P2P App for buyers and sellers to trade Bitcoin with escrow. Users can login, open a trade and parties can chat and trade BTC for cash. Built with Angular.js, Laravel Lumen APIs, and Firebase SDK. Have features which allows user for realtime messaging, image sharing as well as supports deposits and withdrawals!"
               ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              demoLink="https://pixcoinn.com"
             />
           </Col>
 
@@ -36,8 +36,8 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
+              title="CI-CD Pipeline"
+              description="I got bored deploying react code on vercel. I wrote a CI-CD Workflow to automate deployment to my Linux VM using github actions. I setup a Github Hosted runner and wrote a custom YAML File to enable the runner build, test, SSH into and automatically deploy the app on my RHEL Centos 7 VM."
               ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
               demoLink="https://blogs.soumya-jit.tech/"
             />

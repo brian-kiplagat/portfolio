@@ -20,7 +20,7 @@ function Home2() {
             </h1>
             <p className="home-about-body">
               I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              something, I think… 🤷‍♂️.
               <br />
               <br />I am fluent in classics like
               <i>
@@ -28,7 +28,7 @@ function Home2() {
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              My current focus and field of Interest's are building new &nbsp;
               <i>
                 <b className="purple">Web Technologies and Products </b> and
                 also in areas related to{" "}
@@ -36,6 +36,7 @@ function Home2() {
                   Blockchain.
                 </b>
               </i>
+              I am a fullstack developer with a Backend Heavy stack. I love Linux (I love penguins) and almost 100% self-host all my applications on my Centos 7 VM
               <br />
               <br />
               I also apply my deep passion for developing products

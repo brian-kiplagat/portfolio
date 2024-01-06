@@ -13,8 +13,7 @@ function AboutCard() {
             <br />
             I am currently employed as a fullstack software developer at Nectar Mobile.
             <br />
-            I have completed Integrated MSc (IMSc) in Maths and Computing at BIT
-            Mesra.
+            I am completing my BSC Software Engineering Degree at Zetech University in Kenya.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
