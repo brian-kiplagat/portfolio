@@ -8,7 +8,8 @@ function Projects() {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await fetch('https://x8ki-letl-twmt.n7.xano.io/api:7AzsX1rL/projects')
+                const APIBaseURL = 'https://x8ki-letl-twmt.n7.xano.io/api:7AzsX1rL'
+                const response = await fetch(`${APIBaseURL}/projects`)
                 const result = await response.json();
                 setData(result);
                 console.log(result)
