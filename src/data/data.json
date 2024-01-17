@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "created_at": 1704626804775,
+    "title": "Xano API & React",
+    "description": "I was researching on how best to create APIs with Xano for a wized project i was undertaking.\nI thought of my react portofolio which had hardcoded blog elements. I thought why not use a Xano API instead for my react portfolio.\nSo utilising useEffect and useState combo so that onComponent mount, this page fires a get request to a xano endpoint and xano returns an ordered list of projects in json which i use Array.map()\nto produce a dynamic list of elements. Infact this page your reading now gets json data from a xano database!",
+    "ghLink": "https://github.com/brian-kiplagat/portfolio",
+    "demoLink": "https://brian.coinpes.com/project",
+    "isBlog": "",
+    "imgPath": "https://api.coinpes.com/storage/img/xano.PNG"
+  },
+  {
+    "id": 2,
+    "created_at": 1704626925262,
+    "title": "CI/CD Pipeline",
+    "description": "I got bored deploying react code on vercel. Coming from a linux backgroud, I wrote my CI-CD Workflow that emulates vercel in my VM to automate code deployment using github actions. I setup a Github Hosted runner and wrote a custom YAML File to enable the runner build, test, \nautomatically deploy the app on my RHEL VM. I was able to setup custom users and passwordless SSH Keys that enable runners to automatically SSH into, CD into my deployment directory and deploy my react portfolio. All i have to do is push my JS changes\nincrementally and my workflow will test and deploy my portfolio to my custom domain on an EC2 Instance. I wrote a whole blog on how JS Devs can use github actions, runners, workflows and linux to automate deployments",
+    "ghLink": "None",
+    "demoLink": "https://t.co/LJ2jsARrzZ",
+    "isBlog": 1,
+    "imgPath": "https://cdn.hashnode.com/res/hashnode/image/upload/v1704561112650/09b19959-b468-425a-b0c7-f092c9c511bf.png?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp"
+  },
+  {
+    "id": 3,
+    "created_at": 1704628107296,
+    "title": "Pixcoinn.com",
+    "description": "A crypto P2P App for buyers and sellers to trade Bitcoin with escrow. Users can login, open a trade and parties can chat and trade BTC for cash. Built with Angular.js, Laravel Lumen APIs, and Firebase SDK. Have features which allows user for realtime messaging, image sharing as well as supports deposits and withdrawals! Was able to utilise JS Libraries like clipboardy: 3.0.0, core-js: 3.14.0, crypto-js: 4.1.1, feather-icons: 4.28.0, firebase: 9.6.8, apexcharts: 3.33.2, bootstrap: 4.6.1, @angular/compiler: 13.0.2, @angular/core: 13.0.2, @angular/fire: 7.2.1, @angular/flex-layout: 12.0.0-beta.34, @angular/forms: 13.0.2",
+    "ghLink": "https://github.com/brian-kiplagat/escrow_front_end",
+    "demoLink": "https://pixcoinn.com",
+    "isBlog": "",
+    "imgPath": "https://i.postimg.cc/DzrdysLb/Capture.png"
+  },
+  {
+    "id": 4,
+    "created_at": 1704630443797,
+    "title": "Laravel API",
+    "description": "I spearheaded the development of a production Laravel API for an upcoming cryptocurrency trading platform (pixcoinn.com). From crafting middleware and authentication to implementing intricate trade logic, the API serves as a robust backend system. Deployed on a CentOS 7 server, i was responsible for using technologies like nginx reverse proxies, custom domains and CI-CD Pipelines to produce a secure system, it reflects my proficiency in server management and web infrastructure. Additionally, the seamless integration with an Angular frontend, accessible at pixcoinn.com, underscores my versatility as a full-stack developer, showcasing my ability to contribute comprehensively across both backend and frontend components.",
+    "ghLink": "https://github.com/brian-kiplagat/laravel-10-api",
+    "demoLink": "https://briankip.hashnode.dev/laravel-10-restful-crud-api",
+    "isBlog": "",
+    "imgPath": "https://api.coinpes.com/storage/img/api.PNG"
+  },
+  {
+    "id": 5,
+    "created_at": 1704630444354,
+    "title": "Wized Task Manager",
+    "description": "Using the WWX Stack (Wized, Xano, and Webflow), I reverse-engineered Asana, a popular management tool, to create a simplified task manager. Built with Wized 2.0, the application allows users to effortlessly create, edit, and delete tasks and reminders. Leveraging Xano as the backend and Webflow for seamless UI integration, the result is a practical and efficient task management solution.",
+    "ghLink": "",
+    "demoLink": "https://bobshopwizedduka.webflow.io/",
+    "isBlog": "",
+    "imgPath": "https://api.coinpes.com/storage/img/bob.PNG"
+  },
+  {
+    "id": 6,
+    "created_at": 1705486290626,
+    "title": "React Tracker",
+    "description": "React Tracker is web and mobile \"work management\" platform designed to help users organize, track, and manage their work right in from browser local storage. It allows one to whether remote and distributed teams, and the entire organization to be focused on their goals, projects, and tasks.I wrote the tool with react using popular packages like react-dom, react-icons, react-scripts, web-vitals",
+    "ghLink": "https://github.com/brian-kiplagat/tasks",
+    "demoLink": "https://tasks-rust-eight.vercel.app/",
+    "isBlog": "",
+    "imgPath": "https://api.coinpes.com/storage/img/task.PNG"
+  },
+  {
+    "id": 7,
+    "created_at": 1705486812750,
+    "title": "Webflow E-commerce Store",
+    "description": "This an ongoing project im currently doing with the WWX Stack(Wized, Webflow and Xano)",
+    "ghLink": "",
+    "demoLink": "https://brians-beautiful-site-533222.webflow.io/",
+    "isBlog": "",
+    "imgPath": "https://api.coinpes.com/storage/img/amg.PNG"
+  }
+]

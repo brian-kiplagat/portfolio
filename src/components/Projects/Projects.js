@@ -2,25 +2,15 @@ import React, {useEffect, useState} from "react";
 import {Container, Row, Col} from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
+import json from "../../data/data.json"
 
 function Projects() {
    const [data,setData] = useState(null)
     useEffect(() => {
-        const fetchData = async () => {
-            try {
-                const APIBaseURL = 'https://x8ki-letl-twmt.n7.xano.io/api:7AzsX1rL'
-                const response = await fetch(`${APIBaseURL}/projects`)
-                const result = await response.json();
-                setData(result);
-                console.log(result)
+        setData(json)
+        console.log(data)
 
-            } catch (e) {
-                console.log("Error",e)
-            }
-        }
-        fetchData()
-
-    }, []);
+    }, [data]);
 
     return (
         <Container fluid className="project-section">
