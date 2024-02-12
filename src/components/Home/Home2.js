@@ -24,9 +24,9 @@ function Home2() {
                             <br/>
                             <br/>I am fluent in classics like
                             <i>
-                                <b className="purple"> C++, Javascript and Laravel. </b>
+                                <b className="purple"> C++, Java and Laravel </b>
                             </i>
-                            but also apply my deep passion for developing products
+                            , I also apply my deep passion for developing products
                             with <b className="purple">Node.js</b> and
                             <i>
                                 <b className="purple">

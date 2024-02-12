@@ -68,5 +68,25 @@
     "demoLink": "https://brians-beautiful-site-533222.webflow.io/",
     "isBlog": "",
     "imgPath": "https://firebasestorage.googleapis.com/v0/b/chatapp-3b35b.appspot.com/o/project%2Famg.PNG?alt=media&token=9d1e9e13-970a-4766-ab8f-8e137b5793b4"
+  },
+  {
+    "id": 7,
+    "created_at": 1705486812750,
+    "title": "CashMobil Finance",
+    "description": "This is an android app project i did for a client and available on Google PlayStore. It enables users to signup, deposit funds and let experienced traders work and manage the funds. The tech stack chosen was JAVA + Android SDK with libs like material UI. On the backend i used a LAMP Stack(Linux, Apache, MySQL and PHP). This project was done in 2020",
+    "ghLink": "https://github.com/brian-kiplagat/coinbest",
+    "demoLink": "https://play.google.com/store/apps/details?id=com.afro.cashmobil",
+    "isBlog": "",
+    "imgPath": "https://firebasestorage.googleapis.com/v0/b/chatapp-3b35b.appspot.com/o/project%2Fcashmobil.PNG?alt=media&token=79b78f54-2470-499f-85c7-eb84c3e21561"
+  },
+  {
+    "id": 7,
+    "created_at": 1705486812750,
+    "title": "Nectar E-commerce Store",
+    "description": "This is an android e-commerce app available on Google PlayStore. It enables buyer to liquor and other goods direct to their doorstep. This project flourished with 1k+ downloads during 2020 covid and enabled house parties to access liqueur on the fly and direct to the door during a time of curfew and limited out time. The front end stack chosen was Java + Android SDK. I used LEMP (Linux, Nginx, MySql, PHP) Stack for the backend using the Laravel Lumen API to produce a holistic API",
+    "ghLink": "https://github.com/brian-kiplagat/Nectar_Online_Shop",
+    "demoLink": "https://play.google.com/store/apps/details?id=com.nectar.nectaronline",
+    "isBlog": "",
+    "imgPath": "https://firebasestorage.googleapis.com/v0/b/chatapp-3b35b.appspot.com/o/project%2Fnectar.PNG?alt=media&token=03920754-c6e6-41ca-bdfc-6e4edddd140b"
   }
 ]

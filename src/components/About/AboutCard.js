@@ -10,7 +10,7 @@ function AboutCard() {
                     <p style={{textAlign: "justify"}}>
                         Hi Everyone, I am <span className="purple">Brian Kiplagat </span>
                         from <span className="purple"> Nairobi, Kenya.</span> I am an Enthusiastic and dedicated
-                        <span className="purple">Full Stack Developer</span> with a passion for crafting efficient, user-centric, and innovative
+                        <span className="purple"> Full Stack Developer</span> with a passion for crafting efficient, user-centric, and innovative
                         web solutions. Leveraging a strong foundation in both front-end and back-end technologies,
                         I am committed to creating seamless digital experiences that bridge the gap between design
                         and functionality. With a keen eye for detail and a collaborative mindset with over 3 years of
