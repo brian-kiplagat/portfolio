@@ -7,7 +7,7 @@
     "ghLink": "https://github.com/brian-kiplagat/portfolio",
     "demoLink": "https://brian.coinpes.com/project",
     "isBlog": "",
-    "imgPath": "https://api.coinpes.com/storage/img/xano.PNG"
+    "imgPath": "https://firebasestorage.googleapis.com/v0/b/chatapp-3b35b.appspot.com/o/project%2Fbob.PNG?alt=media&token=9484114a-4088-4224-997f-41767729c152"
   },
   {
     "id": 2,
@@ -17,7 +17,7 @@
     "ghLink": "None",
     "demoLink": "https://t.co/LJ2jsARrzZ",
     "isBlog": 1,
-    "imgPath": "https://cdn.hashnode.com/res/hashnode/image/upload/v1704561112650/09b19959-b468-425a-b0c7-f092c9c511bf.png?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp"
+    "imgPath": "https://firebasestorage.googleapis.com/v0/b/chatapp-3b35b.appspot.com/o/project%2Fcicd.png?alt=media&token=35b552f2-fd49-48dc-9040-9c60abbf8026"
   },
   {
     "id": 3,
@@ -27,7 +27,7 @@
     "ghLink": "https://github.com/brian-kiplagat/escrow_front_end",
     "demoLink": "https://pixcoinn.com",
     "isBlog": "",
-    "imgPath": "https://i.postimg.cc/DzrdysLb/Capture.png"
+    "imgPath": "https://firebasestorage.googleapis.com/v0/b/chatapp-3b35b.appspot.com/o/project%2Fimage%20(1).png?alt=media&token=26417f42-3b46-4340-a139-caf3a68c5983"
   },
   {
     "id": 4,
@@ -37,7 +37,7 @@
     "ghLink": "https://github.com/brian-kiplagat/laravel-10-api",
     "demoLink": "https://briankip.hashnode.dev/laravel-10-restful-crud-api",
     "isBlog": "",
-    "imgPath": "https://api.coinpes.com/storage/img/api.PNG"
+    "imgPath": "https://firebasestorage.googleapis.com/v0/b/chatapp-3b35b.appspot.com/o/project%2Fapi.PNG?alt=media&token=5eae8486-2634-498f-9637-5634d27ced89"
   },
   {
     "id": 5,
@@ -47,7 +47,7 @@
     "ghLink": "",
     "demoLink": "https://bobshopwizedduka.webflow.io/",
     "isBlog": "",
-    "imgPath": "https://api.coinpes.com/storage/img/bob.PNG"
+    "imgPath": "https://firebasestorage.googleapis.com/v0/b/chatapp-3b35b.appspot.com/o/project%2Fbob.PNG?alt=media&token=9484114a-4088-4224-997f-41767729c152"
   },
   {
     "id": 6,
@@ -57,7 +57,7 @@
     "ghLink": "https://github.com/brian-kiplagat/tasks",
     "demoLink": "https://tasks-rust-eight.vercel.app/",
     "isBlog": "",
-    "imgPath": "https://api.coinpes.com/storage/img/task.PNG"
+    "imgPath": "https://firebasestorage.googleapis.com/v0/b/chatapp-3b35b.appspot.com/o/project%2Ftask.PNG?alt=media&token=7a9b1755-16a2-4ab6-a64d-38a952f65c05"
   },
   {
     "id": 7,
@@ -67,6 +67,6 @@
     "ghLink": "",
     "demoLink": "https://brians-beautiful-site-533222.webflow.io/",
     "isBlog": "",
-    "imgPath": "https://api.coinpes.com/storage/img/amg.PNG"
+    "imgPath": "https://firebasestorage.googleapis.com/v0/b/chatapp-3b35b.appspot.com/o/project%2Famg.PNG?alt=media&token=9d1e9e13-970a-4766-ab8f-8e137b5793b4"
   }
 ]
