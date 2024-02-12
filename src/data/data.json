@@ -1,26 +1,26 @@
 [
   {
-    "id": 1,
+    "id": 5,
     "created_at": 1704626804775,
     "title": "Xano API & React",
     "description": "I was researching on how best to create APIs with Xano for a wized project i was undertaking.\nI thought of my react portofolio which had hardcoded blog elements. I thought why not use a Xano API instead for my react portfolio.\nSo utilising useEffect and useState combo so that onComponent mount, this page fires a get request to a xano endpoint and xano returns an ordered list of projects in json which i use Array.map()\nto produce a dynamic list of elements. Infact this page your reading now gets json data from a xano database!",
-    "ghLink": "https://github.com/brian-kiplagat/portfolio",
-    "demoLink": "https://brian.coinpes.com/project",
-    "isBlog": "",
-    "imgPath": "https://firebasestorage.googleapis.com/v0/b/chatapp-3b35b.appspot.com/o/project%2Fbob.PNG?alt=media&token=9484114a-4088-4224-997f-41767729c152"
+    "ghLink": "https://briankip.hashnode.dev/xano-backend-for-a-react-app",
+    "demoLink": "",
+    "isBlog": 1,
+    "imgPath": "https://firebasestorage.googleapis.com/v0/b/chatapp-3b35b.appspot.com/o/project%2Fxano.PNG?alt=media&token=b0910030-5323-48cb-9905-a97c472ff307"
   },
   {
-    "id": 2,
+    "id": 3,
     "created_at": 1704626925262,
     "title": "CI/CD Pipeline",
     "description": "I got bored deploying react code on vercel. Coming from a linux backgroud, I wrote my CI-CD Workflow that emulates vercel in my VM to automate code deployment using github actions. I setup a Github Hosted runner and wrote a custom YAML File to enable the runner build, test, \nautomatically deploy the app on my RHEL VM. I was able to setup custom users and passwordless SSH Keys that enable runners to automatically SSH into, CD into my deployment directory and deploy my react portfolio. All i have to do is push my JS changes\nincrementally and my workflow will test and deploy my portfolio to my custom domain on an EC2 Instance. I wrote a whole blog on how JS Devs can use github actions, runners, workflows and linux to automate deployments",
-    "ghLink": "None",
-    "demoLink": "https://t.co/LJ2jsARrzZ",
+    "ghLink": "https://briankip.hashnode.dev/setting-up-a-ci-cd-workflow-for-a-reactjs-app-with-github-actions",
+    "demoLink": "",
     "isBlog": 1,
     "imgPath": "https://firebasestorage.googleapis.com/v0/b/chatapp-3b35b.appspot.com/o/project%2Fcicd.png?alt=media&token=35b552f2-fd49-48dc-9040-9c60abbf8026"
   },
   {
-    "id": 3,
+    "id": 2,
     "created_at": 1704628107296,
     "title": "Pixcoinn.com",
     "description": "A crypto P2P App for buyers and sellers to trade Bitcoin with escrow. Users can login, open a trade and parties can chat and trade BTC for cash. Built with Angular.js, Laravel Lumen APIs, and Firebase SDK. Have features which allows user for realtime messaging, image sharing as well as supports deposits and withdrawals! Was able to utilise JS Libraries like clipboardy: 3.0.0, core-js: 3.14.0, crypto-js: 4.1.1, feather-icons: 4.28.0, firebase: 9.6.8, apexcharts: 3.33.2, bootstrap: 4.6.1, @angular/compiler: 13.0.2, @angular/core: 13.0.2, @angular/fire: 7.2.1, @angular/flex-layout: 12.0.0-beta.34, @angular/forms: 13.0.2",
@@ -50,7 +50,7 @@
     "imgPath": "https://firebasestorage.googleapis.com/v0/b/chatapp-3b35b.appspot.com/o/project%2Fbob.PNG?alt=media&token=9484114a-4088-4224-997f-41767729c152"
   },
   {
-    "id": 6,
+    "id": 8,
     "created_at": 1705486290626,
     "title": "React Tracker",
     "description": "React Tracker is web and mobile \"work management\" platform designed to help users organize, track, and manage their work right in from browser local storage. It allows one to whether remote and distributed teams, and the entire organization to be focused on their goals, projects, and tasks.I wrote the tool with react using popular packages like react-dom, react-icons, react-scripts, web-vitals",
@@ -60,7 +60,7 @@
     "imgPath": "https://firebasestorage.googleapis.com/v0/b/chatapp-3b35b.appspot.com/o/project%2Ftask.PNG?alt=media&token=7a9b1755-16a2-4ab6-a64d-38a952f65c05"
   },
   {
-    "id": 7,
+    "id": 1,
     "created_at": 1705486812750,
     "title": "Webflow E-commerce Store",
     "description": "This an ongoing project im currently doing with the WWX Stack(Wized, Webflow and Xano). It is web store designed to help users choose, filter and shop premium mercedes benz vehicles. It will be based on popular no code tools like Webflow, Wized and Xano  This an ongoing project im currently doing and the content of the website should change from time to time",
@@ -70,7 +70,7 @@
     "imgPath": "https://firebasestorage.googleapis.com/v0/b/chatapp-3b35b.appspot.com/o/project%2Famg.PNG?alt=media&token=9d1e9e13-970a-4766-ab8f-8e137b5793b4"
   },
   {
-    "id": 7,
+    "id": 6,
     "created_at": 1705486812750,
     "title": "CashMobil Finance",
     "description": "This is an android app project i did for a client and available on Google PlayStore. It enables users to signup, deposit funds and let experienced traders work and manage the funds. The tech stack chosen was JAVA + Android SDK with libs like material UI. On the backend i used a LAMP Stack(Linux, Apache, MySQL and PHP). This project was done in 2020",
@@ -88,5 +88,15 @@
     "demoLink": "https://play.google.com/store/apps/details?id=com.nectar.nectaronline",
     "isBlog": "",
     "imgPath": "https://firebasestorage.googleapis.com/v0/b/chatapp-3b35b.appspot.com/o/project%2Fnectar.PNG?alt=media&token=03920754-c6e6-41ca-bdfc-6e4edddd140b"
+  },
+  {
+    "id": 9,
+    "created_at": 1705486812750,
+    "title": "Laravel 10 CRUD API",
+    "description": "Laravel is a popular open-source PHP web application framework known for its elegant syntax and developer-friendly features. I wrote a blog that walks through a simple crud API with Laravel for a sample blog backend. Users will be able to register, log in, authenticate, create, read, update and delete blogs. Creating a CRUD REST API for a blog using Laravel is a multi-step process that involves setting up routes, controllers, models, and authentication. Here's a high-level overview of how one. One can fork the repo and use as incorporate production elements",
+    "ghLink": "https://github.com/brian-kiplagat/laravel-10-api",
+    "demoLink": "https://briankip.hashnode.dev/laravel-10-restful-crud-api",
+    "isBlog": "",
+    "imgPath": "https://firebasestorage.googleapis.com/v0/b/chatapp-3b35b.appspot.com/o/project%2Flaravel.avif?alt=media&token=aa200ca6-1610-4361-9a0f-b52437730956"
   }
 ]

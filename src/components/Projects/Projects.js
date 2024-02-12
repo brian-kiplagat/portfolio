@@ -7,7 +7,7 @@ import json from "../../data/data.json"
 function Projects() {
    const [data,setData] = useState(null)
     useEffect(() => {
-        setData(json)
+        setData(json.sort((a, b) => a.id - b.id))//Sort by ID
         console.log(data)
 
     }, [data]);
