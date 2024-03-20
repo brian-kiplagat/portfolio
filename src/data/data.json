@@ -1,5 +1,25 @@
 [
   {
+    "id": 1,
+    "created_at": 1704626804775,
+    "title": "WWX Job Board",
+    "description": "Hire Up is a Job Board app similar to greenhouse. Its an all-together hiring platform hiring platform that helps you hire fairly and purposefully. It is built with Webflow. Ive used wized make the site dynamic, interactive, responsive, and secure applications without the technical complexity. Ive used Xano to make the backend. With Xano i can Power and Scale it without worrying about scale. Ive utilised heavily Xano Functions stacks for the API. Sign Up & Login, OAuth, Webhooks, Media Upload, Conditional Statements, Custom Functions, Precondition Logic and Background Tasks (CRON) are all utilised as part of the stack",
+    "ghLink": "https://brians-job-site.webflow.io/",
+    "demoLink": "",
+    "isBlog": 1,
+    "imgPath": "https://firebasestorage.googleapis.com/v0/b/chatapp-3b35b.appspot.com/o/project%2Fhireup.PNG?alt=media&token=a49931ac-3836-4305-999d-aa5f623db43f"
+  },
+  {
+    "id": 2,
+    "created_at": 1704626804775,
+    "title": "WWX Terminal VPS",
+    "description": "Terminal allows one to obtain Cloud VPS for less. They offer Fast & Flexible Instances with the best price-to-performance ratio (featuring NVMe SSDs, and a truckload of RAM and traffic) so you can build more for less. It is built with Webflow. Ive used wized make the site dynamic. Ive used Xano to make the backend. Ive utilised heavily Xano Functions stacks for the API. Sign Up & Login, OAuth, Webhooks, Media Upload, Conditional Statements, Custom Functions, Precondition Logic and Background Tasks (CRON) are all utilised as part of the stack",
+    "ghLink": "https://wized-dynamite-site.webflow.io/",
+    "demoLink": "",
+    "isBlog": 1,
+    "imgPath": "https://firebasestorage.googleapis.com/v0/b/chatapp-3b35b.appspot.com/o/project%2Fterminal.PNG?alt=media&token=e28fe2a6-4538-4d04-b75a-d973519ffb9b"
+  },
+  {
     "id": 5,
     "created_at": 1704626804775,
     "title": "Xano API & React",
