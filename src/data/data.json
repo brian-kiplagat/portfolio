@@ -1,122 +1,143 @@
-[
-  {
-    "id": 1,
-    "created_at": 1704626804775,
-    "title": "WWX Job Board",
-    "description": "Hire Up is a Job Board app similar to greenhouse. Its an all-together hiring platform hiring platform that helps you hire fairly and purposefully. It is built with Webflow. Ive used wized make the site dynamic, interactive, responsive, and secure applications without the technical complexity. Ive used Xano to make the backend. With Xano i can Power and Scale it without worrying about scale. Ive utilised heavily Xano Functions stacks for the API. Sign Up & Login, OAuth, Webhooks, Media Upload, Conditional Statements, Custom Functions, Precondition Logic and Background Tasks (CRON) are all utilised as part of the stack",
-    "ghLink": "https://brians-job-site.webflow.io/",
-    "demoLink": "",
-    "isBlog": 1,
-    "imgPath": "https://firebasestorage.googleapis.com/v0/b/chatapp-3b35b.appspot.com/o/project%2Fhireup.PNG?alt=media&token=a49931ac-3836-4305-999d-aa5f623db43f"
-  },
-  {
-    "id": 2,
-    "created_at": 1704626804775,
-    "title": "WWX Terminal VPS",
-    "description": "Terminal allows one to obtain Cloud VPS for less. They offer Fast & Flexible Instances with the best price-to-performance ratio (featuring NVMe SSDs, and a truckload of RAM and traffic) so you can build more for less. It is built with Webflow. Ive used wized make the site dynamic. Ive used Xano to make the backend. Ive utilised heavily Xano Functions stacks for the API. Sign Up & Login, OAuth, Webhooks, Media Upload, Conditional Statements, Custom Functions, Precondition Logic and Background Tasks (CRON) are all utilised as part of the stack",
-    "ghLink": "https://wized-dynamite-site.webflow.io/",
-    "demoLink": "",
-    "isBlog": 1,
-    "imgPath": "https://firebasestorage.googleapis.com/v0/b/chatapp-3b35b.appspot.com/o/project%2Fterminal.PNG?alt=media&token=e28fe2a6-4538-4d04-b75a-d973519ffb9b"
-  },
-  {
-    "id": 5,
-    "created_at": 1704626804775,
-    "title": "Xano API & React",
-    "description": "I was researching on how best to create APIs with Xano for a wized project i was undertaking.\nI thought of my react portofolio which had hardcoded blog elements. I thought why not use a Xano API instead for my react portfolio.\nSo utilising useEffect and useState combo so that onComponent mount, this page fires a get request to a xano endpoint and xano returns an ordered list of projects in json which i use Array.map()\nto produce a dynamic list of elements. Infact this page your reading now gets json data from a xano database!",
-    "ghLink": "https://briankip.hashnode.dev/xano-backend-for-a-react-app",
-    "demoLink": "",
-    "isBlog": 1,
-    "imgPath": "https://firebasestorage.googleapis.com/v0/b/chatapp-3b35b.appspot.com/o/project%2Fxano.PNG?alt=media&token=b0910030-5323-48cb-9905-a97c472ff307"
-  },
-  {
-    "id": 3,
-    "created_at": 1704626925262,
-    "title": "CI/CD Pipeline",
-    "description": "I got bored deploying react code on vercel. Coming from a linux backgroud, I wrote my CI-CD Workflow that emulates vercel in my VM to automate code deployment using github actions. I setup a Github Hosted runner and wrote a custom YAML File to enable the runner build, test, \nautomatically deploy the app on my RHEL VM. I was able to setup custom users and passwordless SSH Keys that enable runners to automatically SSH into, CD into my deployment directory and deploy my react portfolio. All i have to do is push my JS changes\nincrementally and my workflow will test and deploy my portfolio to my custom domain on an EC2 Instance. I wrote a whole blog on how JS Devs can use github actions, runners, workflows and linux to automate deployments",
-    "ghLink": "https://briankip.hashnode.dev/setting-up-a-ci-cd-workflow-for-a-reactjs-app-with-github-actions",
-    "demoLink": "",
-    "isBlog": 1,
-    "imgPath": "https://firebasestorage.googleapis.com/v0/b/chatapp-3b35b.appspot.com/o/project%2Fcicd.png?alt=media&token=35b552f2-fd49-48dc-9040-9c60abbf8026"
-  },
-  {
-    "id": 2,
-    "created_at": 1704628107296,
-    "title": "Pixcoinn.com",
-    "description": "A crypto P2P App for buyers and sellers to trade Bitcoin with escrow. Users can login, open a trade and parties can chat and trade BTC for cash. Built with Angular.js, Laravel Lumen APIs, and Firebase SDK. Have features which allows user for realtime messaging, image sharing as well as supports deposits and withdrawals! Was able to utilise JS Libraries like clipboardy: 3.0.0, core-js: 3.14.0, crypto-js: 4.1.1, feather-icons: 4.28.0, firebase: 9.6.8, apexcharts: 3.33.2, bootstrap: 4.6.1, @angular/compiler: 13.0.2, @angular/core: 13.0.2, @angular/fire: 7.2.1, @angular/flex-layout: 12.0.0-beta.34, @angular/forms: 13.0.2",
-    "ghLink": "https://github.com/brian-kiplagat/escrow_front_end",
-    "demoLink": "https://pixcoinn.com",
-    "isBlog": "",
-    "imgPath": "https://firebasestorage.googleapis.com/v0/b/chatapp-3b35b.appspot.com/o/project%2Fimage%20(1).png?alt=media&token=26417f42-3b46-4340-a139-caf3a68c5983"
-  },
-  {
-    "id": 4,
-    "created_at": 1704630443797,
-    "title": "Laravel API",
-    "description": "I spearheaded the development of a production Laravel API for an upcoming cryptocurrency trading platform (pixcoinn.com). From crafting middleware and authentication to implementing intricate trade logic, the API serves as a robust backend system. Deployed on a CentOS 7 server, i was responsible for using technologies like nginx reverse proxies, custom domains and CI-CD Pipelines to produce a secure system, it reflects my proficiency in server management and web infrastructure. Additionally, the seamless integration with an Angular frontend, accessible at pixcoinn.com, underscores my versatility as a full-stack developer, showcasing my ability to contribute comprehensively across both backend and frontend components.",
-    "ghLink": "https://github.com/brian-kiplagat/laravel-10-api",
-    "demoLink": "https://briankip.hashnode.dev/laravel-10-restful-crud-api",
-    "isBlog": "",
-    "imgPath": "https://firebasestorage.googleapis.com/v0/b/chatapp-3b35b.appspot.com/o/project%2Fapi.PNG?alt=media&token=5eae8486-2634-498f-9637-5634d27ced89"
-  },
-  {
-    "id": 5,
-    "created_at": 1704630444354,
-    "title": "Wized Task Manager",
-    "description": "Using the WWX Stack (Wized, Xano, and Webflow), I reverse-engineered Asana, a popular management tool, to create a simplified task manager. Built with Wized 2.0, the application allows users to effortlessly create, edit, and delete tasks and reminders. Leveraging Xano as the backend and Webflow for seamless UI integration, the result is a practical and efficient task management solution.",
-    "ghLink": "",
-    "demoLink": "https://bobshopwizedduka.webflow.io/",
-    "isBlog": "",
-    "imgPath": "https://firebasestorage.googleapis.com/v0/b/chatapp-3b35b.appspot.com/o/project%2Fbob.PNG?alt=media&token=9484114a-4088-4224-997f-41767729c152"
-  },
-  {
-    "id": 8,
-    "created_at": 1705486290626,
-    "title": "React Tracker",
-    "description": "React Tracker is web and mobile \"work management\" platform designed to help users organize, track, and manage their work right in from browser local storage. It allows one to whether remote and distributed teams, and the entire organization to be focused on their goals, projects, and tasks.I wrote the tool with react using popular packages like react-dom, react-icons, react-scripts, web-vitals",
-    "ghLink": "https://github.com/brian-kiplagat/tasks",
-    "demoLink": "https://tasks-rust-eight.vercel.app/",
-    "isBlog": "",
-    "imgPath": "https://firebasestorage.googleapis.com/v0/b/chatapp-3b35b.appspot.com/o/project%2Ftask.PNG?alt=media&token=7a9b1755-16a2-4ab6-a64d-38a952f65c05"
-  },
-  {
-    "id": 1,
-    "created_at": 1705486812750,
-    "title": "Webflow E-commerce Store",
-    "description": "This an ongoing project im currently doing with the WWX Stack(Wized, Webflow and Xano). It is web store designed to help users choose, filter and shop premium mercedes benz vehicles. It will be based on popular no code tools like Webflow, Wized and Xano  This an ongoing project im currently doing and the content of the website should change from time to time",
-    "ghLink": "",
-    "demoLink": "https://brians-beautiful-site-533222.webflow.io/",
-    "isBlog": "",
-    "imgPath": "https://firebasestorage.googleapis.com/v0/b/chatapp-3b35b.appspot.com/o/project%2Famg.PNG?alt=media&token=9d1e9e13-970a-4766-ab8f-8e137b5793b4"
-  },
-  {
-    "id": 6,
-    "created_at": 1705486812750,
-    "title": "CashMobil Finance",
-    "description": "This is an android app project i did for a client and available on Google PlayStore. It enables users to signup, deposit funds and let experienced traders work and manage the funds. The tech stack chosen was JAVA + Android SDK with libs like material UI. On the backend i used a LAMP Stack(Linux, Apache, MySQL and PHP). This project was done in 2020",
-    "ghLink": "https://github.com/brian-kiplagat/coinbest",
-    "demoLink": "https://play.google.com/store/apps/details?id=com.afro.cashmobil",
-    "isBlog": "",
-    "imgPath": "https://firebasestorage.googleapis.com/v0/b/chatapp-3b35b.appspot.com/o/project%2Fcashmobil.PNG?alt=media&token=79b78f54-2470-499f-85c7-eb84c3e21561"
-  },
-  {
-    "id": 7,
-    "created_at": 1705486812750,
-    "title": "Nectar E-commerce Store",
-    "description": "This is an android e-commerce app available on Google PlayStore. It enables buyer to liquor and other goods direct to their doorstep. This project flourished with 1k+ downloads during 2020 covid and enabled house parties to access liqueur on the fly and direct to the door during a time of curfew and limited out time. The front end stack chosen was Java + Android SDK. I used LEMP (Linux, Nginx, MySql, PHP) Stack for the backend using the Laravel Lumen API to produce a holistic API",
-    "ghLink": "https://github.com/brian-kiplagat/Nectar_Online_Shop",
-    "demoLink": "https://play.google.com/store/apps/details?id=com.nectar.nectaronline",
-    "isBlog": "",
-    "imgPath": "https://firebasestorage.googleapis.com/v0/b/chatapp-3b35b.appspot.com/o/project%2Fnectar.PNG?alt=media&token=03920754-c6e6-41ca-bdfc-6e4edddd140b"
-  },
-  {
-    "id": 9,
-    "created_at": 1705486812750,
-    "title": "Laravel 10 CRUD API",
-    "description": "Laravel is a popular open-source PHP web application framework known for its elegant syntax and developer-friendly features. I wrote a blog that walks through a simple crud API with Laravel for a sample blog backend. Users will be able to register, log in, authenticate, create, read, update and delete blogs. Creating a CRUD REST API for a blog using Laravel is a multi-step process that involves setting up routes, controllers, models, and authentication. Here's a high-level overview of how one. One can fork the repo and use as incorporate production elements",
-    "ghLink": "https://github.com/brian-kiplagat/laravel-10-api",
-    "demoLink": "https://briankip.hashnode.dev/laravel-10-restful-crud-api",
-    "isBlog": "",
-    "imgPath": "https://firebasestorage.googleapis.com/v0/b/chatapp-3b35b.appspot.com/o/project%2Flaravel.avif?alt=media&token=aa200ca6-1610-4361-9a0f-b52437730956"
-  }
-]
+{
+  "portfolio": [
+    {
+      "id": 1,
+      "created_at": 1704626804775,
+      "title": "WWX Job Board",
+      "description": "Hire Up is a Job Board app similar to greenhouse. Its an all-together hiring platform hiring platform that helps you hire fairly and purposefully. It is built with Webflow. Ive used wized make the site dynamic, interactive, responsive, and secure applications without the technical complexity. Ive used Xano to make the backend. With Xano i can Power and Scale it without worrying about scale. Ive utilised heavily Xano Functions stacks for the API. Sign Up & Login, OAuth, Webhooks, Media Upload, Conditional Statements, Custom Functions, Precondition Logic and Background Tasks (CRON) are all utilised as part of the stack",
+      "ghLink": "https://brians-job-site.webflow.io/",
+      "demoLink": "",
+      "isBlog": 1,
+      "imgPath": "https://firebasestorage.googleapis.com/v0/b/chatapp-3b35b.appspot.com/o/project%2Fhireup.PNG?alt=media&token=a49931ac-3836-4305-999d-aa5f623db43f"
+    },
+    {
+      "id": 2,
+      "created_at": 1704626804775,
+      "title": "WWX Terminal VPS",
+      "description": "Terminal allows one to obtain Cloud VPS for less. They offer Fast & Flexible Instances with the best price-to-performance ratio (featuring NVMe SSDs, and a truckload of RAM and traffic) so you can build more for less. It is built with Webflow. Ive used wized make the site dynamic. Ive used Xano to make the backend. Ive utilised heavily Xano Functions stacks for the API. Sign Up & Login, OAuth, Webhooks, Media Upload, Conditional Statements, Custom Functions, Precondition Logic and Background Tasks (CRON) are all utilised as part of the stack",
+      "ghLink": "https://wized-dynamite-site.webflow.io/",
+      "demoLink": "",
+      "isBlog": 1,
+      "imgPath": "https://firebasestorage.googleapis.com/v0/b/chatapp-3b35b.appspot.com/o/project%2Fterminal.PNG?alt=media&token=e28fe2a6-4538-4d04-b75a-d973519ffb9b"
+    },
+    {
+      "id": 5,
+      "created_at": 1704626804775,
+      "title": "Xano API & React",
+      "description": "I was researching on how best to create APIs with Xano for a wized project i was undertaking.\nI thought of my react portofolio which had hardcoded blog elements. I thought why not use a Xano API instead for my react portfolio.\nSo utilising useEffect and useState combo so that onComponent mount, this page fires a get request to a xano endpoint and xano returns an ordered list of projects in json which i use Array.map()\nto produce a dynamic list of elements. Infact this page your reading now gets json data from a xano database!",
+      "ghLink": "https://briankip.hashnode.dev/xano-backend-for-a-react-app",
+      "demoLink": "",
+      "isBlog": 1,
+      "imgPath": "https://firebasestorage.googleapis.com/v0/b/chatapp-3b35b.appspot.com/o/project%2Fxano.PNG?alt=media&token=b0910030-5323-48cb-9905-a97c472ff307"
+    },
+    {
+      "id": 3,
+      "created_at": 1704626925262,
+      "title": "CI/CD Pipeline",
+      "description": "I got bored deploying react code on vercel. Coming from a linux backgroud, I wrote my CI-CD Workflow that emulates vercel in my VM to automate code deployment using github actions. I setup a Github Hosted runner and wrote a custom YAML File to enable the runner build, test, \nautomatically deploy the app on my RHEL VM. I was able to setup custom users and passwordless SSH Keys that enable runners to automatically SSH into, CD into my deployment directory and deploy my react portfolio. All i have to do is push my JS changes\nincrementally and my workflow will test and deploy my portfolio to my custom domain on an EC2 Instance. I wrote a whole blog on how JS Devs can use github actions, runners, workflows and linux to automate deployments",
+      "ghLink": "https://briankip.hashnode.dev/setting-up-a-ci-cd-workflow-for-a-reactjs-app-with-github-actions",
+      "demoLink": "",
+      "isBlog": 1,
+      "imgPath": "https://firebasestorage.googleapis.com/v0/b/chatapp-3b35b.appspot.com/o/project%2Fcicd.png?alt=media&token=35b552f2-fd49-48dc-9040-9c60abbf8026"
+    },
+    {
+      "id": 2,
+      "created_at": 1704628107296,
+      "title": "Pixcoinn.com",
+      "description": "A crypto P2P App for buyers and sellers to trade Bitcoin with escrow. Users can login, open a trade and parties can chat and trade BTC for cash. Built with Angular.js, Laravel Lumen APIs, and Firebase SDK. Have features which allows user for realtime messaging, image sharing as well as supports deposits and withdrawals! Was able to utilise JS Libraries like clipboardy: 3.0.0, core-js: 3.14.0, crypto-js: 4.1.1, feather-icons: 4.28.0, firebase: 9.6.8, apexcharts: 3.33.2, bootstrap: 4.6.1, @angular/compiler: 13.0.2, @angular/core: 13.0.2, @angular/fire: 7.2.1, @angular/flex-layout: 12.0.0-beta.34, @angular/forms: 13.0.2",
+      "ghLink": "https://github.com/brian-kiplagat/escrow_front_end",
+      "demoLink": "https://pixcoinn.com",
+      "isBlog": "",
+      "imgPath": "https://firebasestorage.googleapis.com/v0/b/chatapp-3b35b.appspot.com/o/project%2Fimage%20(1).png?alt=media&token=26417f42-3b46-4340-a139-caf3a68c5983"
+    },
+    {
+      "id": 4,
+      "created_at": 1704630443797,
+      "title": "Laravel API",
+      "description": "I spearheaded the development of a production Laravel API for an upcoming cryptocurrency trading platform (pixcoinn.com). From crafting middleware and authentication to implementing intricate trade logic, the API serves as a robust backend system. Deployed on a CentOS 7 server, i was responsible for using technologies like nginx reverse proxies, custom domains and CI-CD Pipelines to produce a secure system, it reflects my proficiency in server management and web infrastructure. Additionally, the seamless integration with an Angular frontend, accessible at pixcoinn.com, underscores my versatility as a full-stack developer, showcasing my ability to contribute comprehensively across both backend and frontend components.",
+      "ghLink": "https://github.com/brian-kiplagat/laravel-10-api",
+      "demoLink": "https://briankip.hashnode.dev/laravel-10-restful-crud-api",
+      "isBlog": "",
+      "imgPath": "https://firebasestorage.googleapis.com/v0/b/chatapp-3b35b.appspot.com/o/project%2Fapi.PNG?alt=media&token=5eae8486-2634-498f-9637-5634d27ced89"
+    },
+    {
+      "id": 5,
+      "created_at": 1704630444354,
+      "title": "Wized Task Manager",
+      "description": "Using the WWX Stack (Wized, Xano, and Webflow), I reverse-engineered Asana, a popular management tool, to create a simplified task manager. Built with Wized 2.0, the application allows users to effortlessly create, edit, and delete tasks and reminders. Leveraging Xano as the backend and Webflow for seamless UI integration, the result is a practical and efficient task management solution.",
+      "ghLink": "",
+      "demoLink": "https://bobshopwizedduka.webflow.io/",
+      "isBlog": "",
+      "imgPath": "https://firebasestorage.googleapis.com/v0/b/chatapp-3b35b.appspot.com/o/project%2Fbob.PNG?alt=media&token=9484114a-4088-4224-997f-41767729c152"
+    },
+    {
+      "id": 8,
+      "created_at": 1705486290626,
+      "title": "React Tracker",
+      "description": "React Tracker is web and mobile \"work management\" platform designed to help users organize, track, and manage their work right in from browser local storage. It allows one to whether remote and distributed teams, and the entire organization to be focused on their goals, projects, and tasks.I wrote the tool with react using popular packages like react-dom, react-icons, react-scripts, web-vitals",
+      "ghLink": "https://github.com/brian-kiplagat/tasks",
+      "demoLink": "https://tasks-rust-eight.vercel.app/",
+      "isBlog": "",
+      "imgPath": "https://firebasestorage.googleapis.com/v0/b/chatapp-3b35b.appspot.com/o/project%2Ftask.PNG?alt=media&token=7a9b1755-16a2-4ab6-a64d-38a952f65c05"
+    },
+    {
+      "id": 1,
+      "created_at": 1705486812750,
+      "title": "Webflow E-commerce Store",
+      "description": "This an ongoing project im currently doing with the WWX Stack(Wized, Webflow and Xano). It is web store designed to help users choose, filter and shop premium mercedes benz vehicles. It will be based on popular no code tools like Webflow, Wized and Xano  This an ongoing project im currently doing and the content of the website should change from time to time",
+      "ghLink": "",
+      "demoLink": "https://brians-beautiful-site-533222.webflow.io/",
+      "isBlog": "",
+      "imgPath": "https://firebasestorage.googleapis.com/v0/b/chatapp-3b35b.appspot.com/o/project%2Famg.PNG?alt=media&token=9d1e9e13-970a-4766-ab8f-8e137b5793b4"
+    },
+    {
+      "id": 6,
+      "created_at": 1705486812750,
+      "title": "CashMobil Finance",
+      "description": "This is an android app project i did for a client and available on Google PlayStore. It enables users to signup, deposit funds and let experienced traders work and manage the funds. The tech stack chosen was JAVA + Android SDK with libs like material UI. On the backend i used a LAMP Stack(Linux, Apache, MySQL and PHP). This project was done in 2020",
+      "ghLink": "https://github.com/brian-kiplagat/coinbest",
+      "demoLink": "https://play.google.com/store/apps/details?id=com.afro.cashmobil",
+      "isBlog": "",
+      "imgPath": "https://firebasestorage.googleapis.com/v0/b/chatapp-3b35b.appspot.com/o/project%2Fcashmobil.PNG?alt=media&token=79b78f54-2470-499f-85c7-eb84c3e21561"
+    },
+    {
+      "id": 7,
+      "created_at": 1705486812750,
+      "title": "Nectar E-commerce Store",
+      "description": "This is an android e-commerce app available on Google PlayStore. It enables buyer to liquor and other goods direct to their doorstep. This project flourished with 1k+ downloads during 2020 covid and enabled house parties to access liqueur on the fly and direct to the door during a time of curfew and limited out time. The front end stack chosen was Java + Android SDK. I used LEMP (Linux, Nginx, MySql, PHP) Stack for the backend using the Laravel Lumen API to produce a holistic API",
+      "ghLink": "https://github.com/brian-kiplagat/Nectar_Online_Shop",
+      "demoLink": "https://play.google.com/store/apps/details?id=com.nectar.nectaronline",
+      "isBlog": "",
+      "imgPath": "https://firebasestorage.googleapis.com/v0/b/chatapp-3b35b.appspot.com/o/project%2Fnectar.PNG?alt=media&token=03920754-c6e6-41ca-bdfc-6e4edddd140b"
+    },
+    {
+      "id": 9,
+      "created_at": 1705486812750,
+      "title": "Laravel 10 CRUD API",
+      "description": "Laravel is a popular open-source PHP web application framework known for its elegant syntax and developer-friendly features. I wrote a blog that walks through a simple crud API with Laravel for a sample blog backend. Users will be able to register, log in, authenticate, create, read, update and delete blogs. Creating a CRUD REST API for a blog using Laravel is a multi-step process that involves setting up routes, controllers, models, and authentication. Here's a high-level overview of how one. One can fork the repo and use as incorporate production elements",
+      "ghLink": "https://github.com/brian-kiplagat/laravel-10-api",
+      "demoLink": "https://briankip.hashnode.dev/laravel-10-restful-crud-api",
+      "isBlog": "",
+      "imgPath": "https://firebasestorage.googleapis.com/v0/b/chatapp-3b35b.appspot.com/o/project%2Flaravel.avif?alt=media&token=aa200ca6-1610-4361-9a0f-b52437730956"
+    }
+  ],
+  "experience": [
+    {
+      "id": 1,
+      "started": 1704626804775,
+      "ended": 1704626804775,
+      "isCurrent": true,
+      "company": "Black Peak",
+      "about": "Black Peak",
+      "geolocation": "CA",
+      "country": "Canada",
+      "city": "Vancouver",
+      "type": "remote",
+      "position": "junior",
+      "stack": "Webflow, Wized, Xano Engineer",
+      "webLink": "https://brians-job-site.webflow.io/",
+      "demoLink": "",
+      "imgPath": "https://firebasestorage.googleapis.com/v0/b/chatapp-3b35b.appspot.com/o/project%2Fhireup.PNG?alt=media&token=a49931ac-3836-4305-999d-aa5f623db43f"
+    }
+  ]
+}
