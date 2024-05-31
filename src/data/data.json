@@ -3,6 +3,15 @@
     {
       "id": 1,
       "created_at": 1704626804775,
+      "title": "Better Off",
+      "description": "Better Off is a planning service that produces legal documents. Its an all-together document generating platform that allows you to automatically translate your plan or will into state-specific legal documents, and share them with the people who’ll carry out your wishes when you die. You can build your full plan and download a limited but fully functional advance healthcare directive without paying anything. You only need to pay when you’re ready to download a more robust healthcare directive and other legal documents, which, depending on the plan you set, could include a will, a power of attorney to ensure care for minor children if you're incapacitated, and a transfer on death deed. Pay far less than the cost of traditional legal services to put your mind at ease. It is built with Webflow. Ive used wized make the site dynamic, interactive and responsive. I've used Xano to make the backend. As the backend engineer i was able to ensure personal information and plan will be protected with SOC 2 Type II, ISO 27001, and ISO 9001 encryption standards, the same standards commonly used by major financial institutions for data protection. Better Off is also compliant with HIPAA requirements.",
+      "ghLink": "https://brians-job-site.webflow.io/",
+      "demoLink": "",
+      "isBlog": 1,
+      "imgPath": "https://firebasestorage.googleapis.com/v0/b/chatapp-3b35b.appspot.com/o/project%2Fhireup.PNG?alt=media&token=a49931ac-3836-4305-999d-aa5f623db43f"
+    },{
+      "id": 1,
+      "created_at": 1704626804775,
       "title": "WWX Job Board",
       "description": "Hire Up is a Job Board app similar to greenhouse. Its an all-together hiring platform hiring platform that helps you hire fairly and purposefully. It is built with Webflow. Ive used wized make the site dynamic, interactive, responsive, and secure applications without the technical complexity. Ive used Xano to make the backend. With Xano i can Power and Scale it without worrying about scale. Ive utilised heavily Xano Functions stacks for the API. Sign Up & Login, OAuth, Webhooks, Media Upload, Conditional Statements, Custom Functions, Precondition Logic and Background Tasks (CRON) are all utilised as part of the stack",
       "ghLink": "https://brians-job-site.webflow.io/",
