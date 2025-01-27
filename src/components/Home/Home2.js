@@ -36,7 +36,7 @@ function Home2() {
                             </i>
                             &nbsp; like
                             <i>
-                                <b className="purple"> React.js and Next.js</b>
+                                <b className="purple"> React.js and Svelte</b>
                             </i>
                             <br/>
                             <br/>
@@ -56,7 +56,7 @@ function Home2() {
                         </i>
                             <br />
                             <br/>
-                            I love Linux (I love penguins) and almost 100% self-host all my applications on my Centos 7
+                            I love Linux (I love penguins) and almost 100% self-host all my applications on my Ubuntu 22.04
                             VM.
                         </p>
                     </Col>

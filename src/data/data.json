@@ -3,6 +3,25 @@
     {
       "id": 1,
       "created_at": 1704626804775,
+      "title": "Finsweet Marquee",
+      "description": "The Finsweet marquee is a no-code component built with TypeScript and Svelte, designed for seamless integration into Webflow. Users can easily create infinite scrolling marquees by simply opening the Finsweet Components App and injecting the marquee directly into the Webflow canvas. Perfect for showcasing logos, announcements, or dynamic visuals, the marquee requires no coding knowledge and offers customizable options like speed and direction for a polished, professional scrolling effect.",
+      "ghLink": "https://www.finsweet.com/marquee",
+      "demoLink": "",
+      "isBlog": 1,
+      "imgPath": "https://firebasestorage.googleapis.com/v0/b/chatapp-3b35b.appspot.com/o/images%2Fmarquee.png?alt=media&token=1a5959fa-0bec-4b46-be34-d40c2a5153dc"
+    }, {
+      "id": 1,
+      "created_at": 1704626804775,
+      "title": "Juxsee",
+      "description": "Juxsee is a P2P marketplace designed for artists to showcase and sell their work while enabling buyers to discover unique pieces. With features like custom artist stores, no commissions, and social buying tools, Juxsee empowers creators to promote their art effortlessly. The platform also offers valuable resources, including blogs and guides, to support emerging artists. Currently in closed beta, Juxsee is accepting applications for its limited artist accounts, fostering a vibrant community of creators and collectors.. It meets SOC 2 Type II, ISO 27001, ISO 9001, and HIPAA standards.",
+      "ghLink": "http://juxsee.com/",
+      "demoLink": "",
+      "isBlog": 1,
+      "imgPath": "https://firebasestorage.googleapis.com/v0/b/chatapp-3b35b.appspot.com/o/images%2Fjuxsee.png?alt=media&token=8280e8b2-c69e-4070-9b5d-0b14c7a50df1"
+    },
+    {
+      "id": 1,
+      "created_at": 1704626804775,
       "title": "Wrap Start",
       "description": "WrapStart is a SaaS platform designed to help wrapping shops streamline and enhance their business operations. The project utilizes Xano for the backend to manage data and server-side functionality, and Retool for the frontend to create an intuitive user interface. With WrapStart, shops can efficiently manage their wrapping projects, track inventory, handle customer interactions, and optimize their workflows. It meets SOC 2 Type II, ISO 27001, ISO 9001, and HIPAA standards.",
       "ghLink": "https://www.getbetteroff.com/",
