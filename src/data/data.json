@@ -3,7 +3,7 @@
     {
       "id": 1,
       "created_at": 1704626804775,
-      "title": "Finsweet Marquee",
+      "title": "Finsweet Number Count",
       "description": "The Finsweet marquee is a no-code component built with TypeScript and Svelte, designed for seamless integration into Webflow. Users can easily create Users can easily customize the start and end values, duration, and triggering methods like scrolling. Additional features include locale formatting, tabular width, and a reset option. All settings are manageable directly in the Finsweet Components app, requiring no coding experience..",
       "ghLink": "https://finsweet.com/components/number-count",
       "demoLink": "",
