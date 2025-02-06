@@ -4,6 +4,15 @@
       "id": 1,
       "created_at": 1704626804775,
       "title": "Finsweet Marquee",
+      "description": "The Finsweet marquee is a no-code component built with TypeScript and Svelte, designed for seamless integration into Webflow. Users can easily create Users can easily customize the start and end values, duration, and triggering methods like scrolling. Additional features include locale formatting, tabular width, and a reset option. All settings are manageable directly in the Finsweet Components app, requiring no coding experience..",
+      "ghLink": "https://finsweet.com/components/number-count",
+      "demoLink": "",
+      "isBlog": 1,
+      "imgPath": "https://firebasestorage.googleapis.com/v0/b/chatapp-3b35b.appspot.com/o/images%2FScreenshot%202025-02-06%20171110.png?alt=media&token=95c48294-0a5f-4f30-b3d3-d3311912500a"
+    },{
+      "id": 1,
+      "created_at": 1704626804775,
+      "title": "Finsweet Marquee",
       "description": "The Finsweet marquee is a no-code component built with TypeScript and Svelte, designed for seamless integration into Webflow. Users can easily create infinite scrolling marquees by simply opening the Finsweet Components App and injecting the marquee directly into the Webflow canvas. Perfect for showcasing logos, announcements, or dynamic visuals, the marquee requires no coding knowledge and offers customizable options like speed and direction for a polished, professional scrolling effect.",
       "ghLink": "https://finsweet.com/components/marquee",
       "demoLink": "",
