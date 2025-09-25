@@ -3,30 +3,52 @@
     {
       "id": 1,
       "created_at": 1704626804775,
+      "title": "Finsweet YouTube Feed",
+      "description": "I led the full‑stack YouTube Feed for Webflow: Svelte + TypeScript UI that injects markup and initializes embeds in canvas, powered by a Hono.js API on Cloudflare Workers using D1 and KV. Implemented 6‑hour TTL caching to mitigate YouTube rate limits and keep feeds fast and reliable.",
+      "ghLink": "https://finsweet.com/components/youtube-feed",
+      "demoLink": "",
+      "isBlog": 1,
+      "imgPath": "https://cdn.prod.website-files.com/664388ff95405d9b451bba77/687ab7ced8ddd0e3ecd399a6_youtubefeed-1.webp"
+    },
+    {
+      "id": 1,
+      "created_at": 1704626804775,
+      "title": "Finsweet Instagram Feed",
+      "description": "I led the full‑stack Instagram Feed for Webflow: Svelte + TypeScript UI that injects markup and initializes embeds in canvas, backed by a Hono.js API on Cloudflare Workers using D1 and KV. Added 6‑hour TTL caching to handle Instagram rate limits and deliver consistently fast loads.",
+      "ghLink": "https://finsweet.com/components/instagram-feed",
+      "demoLink": "",
+      "isBlog": 1,
+      "imgPath": "https://cdn.prod.website-files.com/664388ff95405d9b451bba77/6844ad8bfdc8e2cfeee5cbce_insta-feed1.webp"
+    },
+    {
+      "id": 1,
+      "created_at": 1704626804775,
+      "title": "Finsweet Marquee",
+      "description": "I built a TypeScript marquee for Webflow with seamless, infinite scrolling in any direction using requestAnimationFrame and intelligent content cloning. It supports speed controls, responsive recalculation, and pauses via IntersectionObserver, hover, and visibility changes, with ARIA-friendly markup for accessibility.",
+      "ghLink": "https://finsweet.com/components/marquee",
+      "demoLink": "",
+      "isBlog": 1,
+      "imgPath": "https://cdn.prod.website-files.com/664388ff95405d9b451bba77/677ef9d64dd824792be3c1dc_marquee1.webp"
+    },
+    {
+      "id": 1,
+      "created_at": 1704626804775,
+      "title": "Finsweet Number Count",
+      "description": "I built a TypeScript Number Count for Webflow using requestAnimationFrame with easing for smooth, precise duration-based counting and bidirectional updates. It triggers via IntersectionObserver, formats with Intl.NumberFormat, exposes onStart/onEnd callbacks, preserves progress on pause/resume, and includes accessible ARIA states.",
+      "ghLink": "https://finsweet.com/components/number-count",
+      "demoLink": "",
+      "isBlog": 1,
+      "imgPath": "https://cdn.prod.website-files.com/664388ff95405d9b451bba77/67a1694684270873dfc5bad0_number1.webp"
+    },
+    {
+      "id": 1,
+      "created_at": 1704626804775,
       "title": "Image Processing API with Google Drive Integration",
       "description": "Developed a robust Node.js/Express API service that processes images with dynamic border customization. The API accepts base64-encoded images and allows users to specify border size in mm and color. Built using Sharp for high-performance image processing, the service optimizes output quality using MozJPEG compression while maintaining image fidelity. Features secure Google Drive integration for persistent storage, automatically uploading processed images and returning shareable links. The application is deployed using GitHub Actions for CI/CD, implementing secure credential management and automated deployment to a Linux server. Built with scalability in mind, the API includes CORS support for cross-origin requests and comprehensive error handling. Technologies used: Node.js, Express, Sharp, Google Drive API, GitHub Actions, PM2 for process management, and secure credential handling for production deployment.",
       "ghLink": "https://github.com/brian-kiplagat/image_resizer",
       "demoLink": "",
       "isBlog": 1,
       "imgPath": "https://firebasestorage.googleapis.com/v0/b/chatapp-3b35b.appspot.com/o/images%2FScreenshot%202025-02-08%20160815.png?alt=media&token=36f98519-513c-456d-bc4e-5b7f758e0bec"
-    },{
-      "id": 1,
-      "created_at": 1704626804775,
-      "title": "Finsweet Number Count",
-      "description": "The Finsweet Number Count is a no-code component built with TypeScript and Svelte, designed for seamless integration into Webflow. Users can easily customize the start and end values, duration, and triggering methods like scrolling. Additional features include locale formatting, tabular width, and a reset option. All settings are manageable directly in the Finsweet Components app, requiring no coding experience..",
-      "ghLink": "https://finsweet.com/components/number-count",
-      "demoLink": "",
-      "isBlog": 1,
-      "imgPath": "https://firebasestorage.googleapis.com/v0/b/chatapp-3b35b.appspot.com/o/images%2FScreenshot%202025-02-06%20171957.png?alt=media&token=51be3cd2-eec5-4c58-a690-53a84227c340"
-    },{
-      "id": 1,
-      "created_at": 1704626804775,
-      "title": "Finsweet Marquee",
-      "description": "The Finsweet marquee is a no-code component built with TypeScript and Svelte, designed for seamless integration into Webflow. Users can easily create infinite scrolling marquees by simply opening the Finsweet Components App and injecting the marquee directly into the Webflow canvas. Perfect for showcasing logos, announcements, or dynamic visuals, the marquee requires no coding knowledge and offers customizable options like speed and direction for a polished, professional scrolling effect.",
-      "ghLink": "https://finsweet.com/components/marquee",
-      "demoLink": "",
-      "isBlog": 1,
-      "imgPath": "https://firebasestorage.googleapis.com/v0/b/chatapp-3b35b.appspot.com/o/images%2Fmarquee.png?alt=media&token=1a5959fa-0bec-4b46-be34-d40c2a5153dc"
     }, {
       "id": 1,
       "created_at": 1704626804775,
