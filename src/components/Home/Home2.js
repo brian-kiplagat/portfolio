@@ -20,7 +20,7 @@ function Home2() {
                         <p className="home-about-body">
                             Hi, Im Brian. I am a fullstack developer based in Nairobi, Kenya. I am a tried and
                             tested dev with
-                            3 years experience building solid applications on the web
+                            5 years experience building solid applications on the web
                             <br/>
                             <br/>I am fluent in classics like
                             <i>
