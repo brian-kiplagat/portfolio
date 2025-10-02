@@ -43,13 +43,14 @@
     {
       "id": 1,
       "created_at": 1704626804775,
-      "title": "Image Processing API with Google Drive Integration",
-      "description": "Developed a robust Node.js/Express API service that processes images with dynamic border customization. The API accepts base64-encoded images and allows users to specify border size in mm and color. Built using Sharp for high-performance image processing, the service optimizes output quality using MozJPEG compression while maintaining image fidelity. Features secure Google Drive integration for persistent storage, automatically uploading processed images and returning shareable links. The application is deployed using GitHub Actions for CI/CD, implementing secure credential management and automated deployment to a Linux server. Built with scalability in mind, the API includes CORS support for cross-origin requests and comprehensive error handling. Technologies used: Node.js, Express, Sharp, Google Drive API, GitHub Actions, PM2 for process management, and secure credential handling for production deployment.",
-      "ghLink": "https://github.com/brian-kiplagat/image_resizer",
-      "demoLink": "",
+      "title": "Elevnt",
+      "description": "Developed a platform that is designed to be your all-in-one solution for seamlessly managing courses, events, and podcasts, offering unparalleled customization to perfectly align with your brand. This platform helps you host and stream paid or free events to leads, while also bringing in courses and podcasts for a richer user experience. Built with react frontend and a hono js backend on AWS. Utilised key aws tech like S3, Cloudfront, Media Convert, Lambda, Rekognition, and Cloudwatch.",
+      "ghLink": "https://elevnt.io/",
+      "demoLink": "https://github.com/brian-kiplagat/yeebli-frontend",
       "isBlog": 1,
-      "imgPath": "https://firebasestorage.googleapis.com/v0/b/chatapp-3b35b.appspot.com/o/images%2FScreenshot%202025-02-08%20160815.png?alt=media&token=36f98519-513c-456d-bc4e-5b7f758e0bec"
-    }, {
+      "imgPath": "https://www.elevnt.io/img/landing/hero/hero.webp"
+    }, 
+    {
       "id": 1,
       "created_at": 1704626804775,
       "title": "Juxsee",
