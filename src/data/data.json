@@ -139,26 +139,6 @@
       "imgPath": "https://firebasestorage.googleapis.com/v0/b/chatapp-3b35b.appspot.com/o/project%2Fapi.PNG?alt=media&token=5eae8486-2634-498f-9637-5634d27ced89"
     },
     {
-      "id": 5,
-      "created_at": 1704630444354,
-      "title": "Wized Task Manager",
-      "description": "Using the WWX Stack (Wized, Xano, and Webflow), I reverse-engineered Asana, a popular management tool, to create a simplified task manager. Built with Wized 2.0, the application allows users to effortlessly create, edit, and delete tasks and reminders. Leveraging Xano as the backend and Webflow for seamless UI integration, the result is a practical and efficient task management solution.",
-      "ghLink": "",
-      "demoLink": "https://bobshopwizedduka.webflow.io/",
-      "isBlog": "",
-      "imgPath": "https://firebasestorage.googleapis.com/v0/b/chatapp-3b35b.appspot.com/o/project%2Fbob.PNG?alt=media&token=9484114a-4088-4224-997f-41767729c152"
-    },
-    {
-      "id": 8,
-      "created_at": 1705486290626,
-      "title": "React Tracker",
-      "description": "React Tracker is web and mobile \"work management\" platform designed to help users organize, track, and manage their work right in from browser local storage. It allows one to whether remote and distributed teams, and the entire organization to be focused on their goals, projects, and tasks.I wrote the tool with react using popular packages like react-dom, react-icons, react-scripts, web-vitals",
-      "ghLink": "https://github.com/brian-kiplagat/tasks",
-      "demoLink": "https://tasks-rust-eight.vercel.app/",
-      "isBlog": "",
-      "imgPath": "https://firebasestorage.googleapis.com/v0/b/chatapp-3b35b.appspot.com/o/project%2Ftask.PNG?alt=media&token=7a9b1755-16a2-4ab6-a64d-38a952f65c05"
-    },
-    {
       "id": 1,
       "created_at": 1705486812750,
       "title": "Webflow E-commerce Store",
